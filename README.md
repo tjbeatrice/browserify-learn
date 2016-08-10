@@ -26,7 +26,6 @@ Changes to src js can be monitored for automatic re-builds (with performance boo
 > - npm run build
 > - npm run minify
 
----
 
 ## Challenges
 I attempted to successfully load external libraries so as to not compile them into a giant bundle.js, but it didnt really work.  Problem was ultimately the sub-dependencies of those external libs.  For example, I got things to kind of work with Backbone, but it was up to me to manually load underscore too.
