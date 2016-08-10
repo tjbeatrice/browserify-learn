@@ -3,10 +3,11 @@ var data = [1, 2, 2, 3, 4, 5, 5, 5, 6];
 
 console.log("unique:" + unique(data));
 
+/*
 console.log('bundle.js: ' + (1082257/1024));
 console.log('minified: ' + (200061/1024));
 console.log('compression: ' + ((200061 / 1082257) * 100));
-
+*/
 
 // ----
 var KidsCollection = require('./kids-collection.js');
